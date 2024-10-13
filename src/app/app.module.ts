@@ -11,7 +11,8 @@ import {NgOptimizedImage} from "@angular/common";
 import {FormsModule} from "@angular/forms";
 import { ContainsPipe } from './pipes/contains.pipe';
 import { HighlightDirective } from './directives/highlight.directive';
-
+import { NotFoundPageComponent } from './not-found-page/not-found-page.component';
+import { ProductsCategoryComponentComponent } from './products-category-component/products-category-component.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +21,9 @@ import { HighlightDirective } from './directives/highlight.directive';
     HomeComponent,
     ListCategoriesComponent,
     ContainsPipe,
-    HighlightDirective
+    HighlightDirective,
+    NotFoundPageComponent,
+    ProductsCategoryComponentComponent,
   ],
   imports: [
     BrowserModule,
